@@ -1,0 +1,34 @@
+{
+  "name": "boulders-slides",
+  "version": "1.0.0",
+  "description": "Lea's First Gamedev Talk",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learosema/boulders-slides.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learosema/boulders-slides/issues"
+  },
+  "homepage": "https://github.com/learosema/boulders-slides#readme",
+  "browserslist": [
+    "last 2 version",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "browserslist": "^4.24.4",
+    "dayjs": "^1.11.13",
+    "esbuild": "^0.25.2",
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "^1.29.3",
+    "slugify": "^1.6.6"
+  }
+}

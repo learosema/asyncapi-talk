@@ -1,0 +1,21 @@
+
+:root {
+  --bg: #fff;
+  --fg: #000;
+  --nav-bg: #003763;
+  --nav-fg: var(--white);
+  --footer-bg: #003763;
+  --footer-fg: var(--white);
+  --anchor: #006dc7;
+
+  --button-bg--primary: transparent;
+  --button-fg--primary: #006dc7;
+  --button-bg--primary-focus: var(--black);
+  --button-fg--primary-focus: #006dc7;
+  --button-bg--primary-disabled: transparent;
+  --button-fg--primary-disabled: #3aa6ff;
+  --button-outline: 2px solid #006dc7;
+
+  --underline-1: #006dc7;
+  --underline-2: #003763;
+}
